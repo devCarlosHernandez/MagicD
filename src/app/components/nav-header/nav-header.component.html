@@ -1,0 +1,108 @@
+<section id="top-nav" class="bg-black">
+  <div class="text-center px-md-3 py-md-2">
+    <p class="text-white py-1 m-0">Reserva ahora mismo y mira nuestras promociones
+      <span><a routerLinkActive="active"routerLink="login" class="text-white text-decoration-underline">Registrarse ahora</a></span>
+    </p>
+  </div>
+</section>
+
+
+<nav class="main-menu d-flex navbar navbar-expand-lg p-2 py-3 p-lg-4 py-lg-4 ">
+  <div class="container-fluid">
+    <div class="main-logo d-lg-none">
+      <a routerLinkActive="active"routerLink="inicio">
+        <img src="./../asset/android-chrome-192x192.png" style="width: 30%;" alt="logo" class="img-fluid">
+        <strong class="nombres">Magic D Studio</strong>
+      </a>
+    </div>
+
+    <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+      <div class="offcanvas-header mt-3">
+        <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+
+      <div class="offcanvas-body justify-content-between">
+        <div class="main-logo" style="margin-left: 80px;">
+          <a routerLinkActive="active"routerLink="inicio">
+            <img src="../../asset/android-chrome-192x192.png" height="100" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24">
+            <strong class="nombre">Magic D Studio</strong>
+          </a>
+        </div>
+
+        <ul class="navbar-nav menu-list list-unstyled align-items-lg-center d-flex gap-md-3 mb-0 letra">
+          <li class="nav-item">
+            <a routerLinkActive="active"routerLink="inicio" class="nav-link mx-2 active">Inicio</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link mx-2 dropdown-toggle align-items-center" role="button" id="unas"
+              data-bs-toggle="dropdown" aria-expanded="false">Uñas</a>
+            <ul class="dropdown-menu" aria-labelledby="unas">
+              <li><a routerLinkActive="active"routerLink="unas/manicure" class="dropdown-item">Manicure</a></li>
+              <li><a routerLinkActive="active"routerLink="unas/acrilicas" class="dropdown-item">Acrilicas <!--<span
+                    class="badge bg-secondary text-white ms-2">PRO</span>--></a></li>
+              <li><a routerLinkActive="active"routerLink="unas/exfoliacion" class="dropdown-item">Exfoliacion de manos</a></li>
+              <li><a routerLinkActive="active"routerLink="unas/nivelacion" class="dropdown-item">Nivelacion</a></li>
+              <li><a routerLinkActive="active"routerLink="unas/gel" class="dropdown-item">Gel</a></li>
+              <li><a routerLinkActive="active"routerLink="unas/unas3d" class="dropdown-item">Uñas 3D</a></li>
+              <li><a routerLinkActive="active"routerLink="unas/unas5d" class="dropdown-item">Uñas 5D</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link mx-2 dropdown-toggle align-items-center" role="button" id="pestanas"
+              data-bs-toggle="dropdown" aria-expanded="false">Pestañas</a>
+            <ul class="dropdown-menu" aria-labelledby="courses">
+              <li><a routerLinkActive="active"routerLink="pestanas/clasicas" class="dropdown-item">Clasicas</a></li>
+              <li><a routerLinkActive="active"routerLink="pestanas/volumen" class="dropdown-item">Volumen</a></li>
+              <li><a routerLinkActive="active"routerLink="pestanas/hibrida" class="dropdown-item">Hibrida</a></li>
+              <li><a routerLinkActive="active"routerLink="pestanas/efecto" class="dropdown-item">Efecto</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a routerLinkActive="active"routerLink="disenos" class="nav-link mx-2">Diseños</a>
+          </li>
+          <li class="nav-item">
+            <a routerLinkActive="active"routerLink="reservacion" class="nav-link mx-2">Reserva</a>
+          </li>
+
+          <li class="nav-item">
+            <a routerLinkActive="active"routerLink="contactanos" class="nav-link mx-2">Contactanos</a>
+          </li>
+
+        </ul>
+
+        <div class="d-none d-lg-flex align-items-center">
+          <ul class="d-flex align-items-center list-unstyled m-0">
+            <li>
+              <a routerLinkActive="active"routerLink="login" class="ms-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px">
+                  <use href="#user-circle" />
+                </svg> Inicia Sesión</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid d-lg-none">
+    <div class="d-flex align-items-end mt-3">
+      <ul class="d-flex align-items-center list-unstyled m-0">
+        <li>
+          <a routerLinkActive="active"routerLink="login" class="me-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px">
+              <use href="#user-circle" />
+            </svg>
+            Inicia Sesión</a>
+        </li>
+        <li>
+      </ul>
+    </div>
+  </div>
+</nav>

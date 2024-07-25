@@ -1,0 +1,13 @@
+#service{
+    background-image:url(../../../../../public/vector-purple.jpg); background-repeat: no-repeat;
+}
+.service-title{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200px;
+    font-style: normal;
+    font-variation-settings:
+      "slnt";
+    margin: 20px 0px 10px 10px;
+}

@@ -1,0 +1,10 @@
+.hero{
+    background-image:url(../../../../../public/billboard-bg.png); background-repeat: no-repeat;
+
+}
+img{
+    mask-image: linear-gradient(
+        black 80%,
+        transparent
+    );
+}
